@@ -1187,9 +1187,6 @@ blockquote{
     .container {
       max-width: 1140px;
     }
-    body{
-      line-height:1.4;
-    }
     blockquote{
         font-size: .75rem;
     }
@@ -1198,9 +1195,6 @@ blockquote{
     .container {
       max-width: 1000px;
     }
-    /* .hero {
-      height: 60vh;
-    } */
     blockquote{
         font-size: .75rem;
     }
@@ -1208,9 +1202,6 @@ blockquote{
   @media screen and (max-width: 992px) {
     html {
       font-size: 14px;
-    }
-    body{
-      line-height:1.4;
     }
     .container {
       max-width: 960px;
@@ -1222,9 +1213,6 @@ blockquote{
   @media screen and (max-width: 768px) {
     html {
       font-size: 10px;
-    }
-    body{
-        line-height: 1.3;
     }
     .container {
         max-width: 740px;
@@ -1256,21 +1244,18 @@ blockquote{
     .md-justify-between{
         justify-content: space-between;
     }
-    /* .md-justify-center{
+    .md-justify-center{
         justify-content: center;
-    } */
-    /* .md-items-center{
+    }
+    .md-items-center{
         align-items: center;
-    } */
+    }
     .md-justify-start{
         justify-content: start;
     }
     /* .md-justify-around{
         justify-content: space-around;
     } */
-    /* .md-items-center{
-        align-items: center;
-    }  */
     .md-flex-100{
         flex:1 1 100%
     }
@@ -1279,6 +1264,10 @@ blockquote{
     }
     .sm-margin-left-0{
         margin-left:0;
+    }
+    .md-font-size a{
+      font-size: 1.2rem;
+      font-weight: 600;
     }
     /*navbar */
     .navbar {
@@ -1317,6 +1306,7 @@ blockquote{
       }
       .bars {
         right: 2rem;
+        color:var(--primary);
       }
       .nav-menu-item {
         margin: 16px 0;
@@ -1337,9 +1327,6 @@ blockquote{
 @media screen  and (max-width: 568px) {
     html{
         font-size: 10px;
-    }
-    body{
-      line-height: 1.1rem;
     }
     blockquote{
         font-size: .5rem;
@@ -1380,16 +1367,5 @@ blockquote{
     .sm-margin-left-0{
         margin-left:0;
     }
-      /* hero */
-      .sm-article-hero{
-       margin-top: 2rem;
-       margin-bottom: 1rem;
-      }
-      .sm-padding-top{
-        padding-top: 2rem;
-      }
-      /* footer */
-      .nav-footer h5{
-        margin-top: 1rem;
-      }
+  
 }
